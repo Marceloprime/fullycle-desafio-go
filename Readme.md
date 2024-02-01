@@ -1,3 +1,6 @@
+Link do Docker hub: https://hub.docker.com/repositories/marceloprime7
+
+Descrição:
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 

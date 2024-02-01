@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine AS builder
+FROM golang:1.17-alpine AS fullcycle
 
 WORKDIR /app
 
@@ -10,6 +10,6 @@ FROM scratch
 
 WORKDIR /app
 
-COPY --from=builder /app/script .
+COPY --from=fullcycle /app/script .
 
 CMD ["./script"]
